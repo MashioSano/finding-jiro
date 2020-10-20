@@ -6,7 +6,7 @@ Displays Jiro Ramen near the address you entered
 npm install -g finding-jiro
 ```
 
-Usage
+## Usage
 ```
 $ finding-jiro
 ? Plase Enter your Google Map API KEY.
