@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('dotenv').config()
 const fs = require('fs')
 const { Client } = require('@googlemaps/google-maps-services-js')
