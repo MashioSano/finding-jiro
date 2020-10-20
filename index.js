@@ -34,6 +34,10 @@ function geocode (address, key) {
     .then((res) => {
       return res.data.results[0].geometry.location
     })
+    .catch((e) => {
+      console.log(e.response.data.error_message)
+      process.exit(0)
+    })
 }
 
 function serachShop (latlng, key) {
@@ -156,6 +160,7 @@ async function main () {
   const distances = await (await measureDistance(origin, destinations, key)).data.rows[0].elements
 
   places = addDistanceToPlace(places, distances)
+  
   if (userInput.sort === 'rating') {
     formatter(sortByRating(places))
   } else {
