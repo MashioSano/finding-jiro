@@ -1,6 +1,6 @@
 {
   "name": "finding-jiro",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Displays Jiro Ramen near the address you entered",
   "main": "index.js",
   "scripts": {
