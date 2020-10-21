@@ -3,10 +3,10 @@ Displays Jiro Ramen near the address you entered
 
 ## install
 ```
-npm install finding-jiro
+npm install -g finding-jiro
 ```
 
-Usage
+## Usage
 ```
 $ finding-jiro
 ? Plase Enter your Google Map API KEY.
